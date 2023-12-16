@@ -56,7 +56,10 @@ In this section, we will take a look at **`Manually Scheduling`** a **`POD`** on
     ```
     ![sc3](../../images/sc3.PNG)
     
-    
+
+NOTE: Once the PODs are in running state you cann't edit nodeName property, so if you need to manually schedule it on some node. Ypu first need to delete that POD and then 
+      assign node under _nodeName.__
+
 K8s Reference Docs:
 - https://kubernetes.io/docs/reference/using-api/api-concepts/
 - https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodename
