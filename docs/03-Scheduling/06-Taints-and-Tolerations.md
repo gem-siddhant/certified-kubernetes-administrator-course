@@ -58,6 +58,10 @@ In this section, we will take a look at taints and tolerations.
   ```
  
  ![tntm](../../images/tntm.PNG)
+
+ Questions:
+ 1) Can we use imperative command to apply Tolerations on a pod? kubectl run bee –
+    Solution: No, it’s not possible. You have to define it in a declarative way.
   
      
 #### K8s Reference Docs
