@@ -37,6 +37,10 @@ In this section, we will take a look at Static Pods
 ## Static Pods vs DaemonSets
 
    ![spvsds](../../images/spvsds.PNG)
+
+## Extra Points to Add:
+You can't delete any Static POD by "_kubectl delete cmd_" but in place of this you will be in need to delete the YAML file from the **staticPodPath** which is defined 
+in config.yaml file.
   
 
 #### K8s Reference Docs
